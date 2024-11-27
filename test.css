@@ -1,0 +1,94 @@
+/* إعدادات عامة */
+body {
+    background-color: #FFF8DC;
+        font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4B3E2A;
+    background-image: url('12.png'); /* استبدل 'background.jpg' باسم ملف الصورة */
+    background-size: cover; /* لجعل الصورة تغطي كامل الصفحة */
+    background-repeat: no-repeat; /* منع تكرار الصورة */
+    background-attachment: fixed; /* تثبيت الصورة أثناء التمرير */
+    background-position: center; /* تمركز الصورة في وسط الصفحة */
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    color: #8B4513;
+
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family:Georgia, serif;
+
+}
+
+h3 {
+    margin: 10px 0;
+    text-align: center;
+    
+}
+
+ul {
+    list-style-type: square;
+    padding: 0;
+    text-align: right;
+    
+}
+
+
+
+#table1 {
+    background-color: rgba(255, 235, 205, 0.8); /* لون خلفية مع شفافية */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px; /* زوايا دائرية */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف للجدول */
+}
+
+td {
+    padding: 20px;
+    text-align: center;
+}
+
+td img {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+td img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+video {
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8B4513;
+    color: #FFF;
+    font-size: 1em;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(139, 69, 19, 0.8); /* لون خلفية جديد مع شفافية */
+}
+
+#table2 
+{
+    width:70%;
+    margin: 5px auto;
+    padding: 0%;
+}
+
+#table3 
+{
+    width:70%;
+    margin: 5px auto;
+    padding: 5px;
+}
+    
